@@ -1,0 +1,12 @@
+/* OTPModal.css */
+.otp-image {
+    width: 80px; /* Adjust the size of the image as needed */
+    height: auto;
+    margin-bottom: 16px; /* Spacing below the image */
+  }
+  
+  .otp-input {
+    width: 40px; /* Set width for the OTP input fields */
+    text-align: center; /* Center align text in the input */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }

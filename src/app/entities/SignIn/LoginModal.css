@@ -1,0 +1,72 @@
+/* Reduced Modal container styles */
+.modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px; /* Reduced width */
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  /* Centered text with reduced margin */
+  .center-text {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  /* Smaller grid layout for 9 images */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .image-grid-item {
+    width: 100%;
+    height: 70px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Tab styles with reduced padding */
+  .tab-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab.active {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text field and button styling */
+  .text-field {
+    margin-bottom: 12px; /* Added gap between fields */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .continue-button {
+    background-color: #fdd835;
+    color: black;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 16px; /* Added gap between text field and button */
+  }
+  
+  .continue-button:hover {
+    background-color: #fdd835;
+  }
+  

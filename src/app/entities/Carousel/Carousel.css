@@ -1,0 +1,10 @@
+.slick-slide img {
+    border-radius: 8px;
+  }
+  .slick-dots li.slick-active button:before {
+    color: #ffcc00; /* Active dot color */
+  }
+  .slick-dots li button:before {
+    color: #000; /* Dot color */
+  }
+  

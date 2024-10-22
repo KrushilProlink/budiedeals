@@ -1,0 +1,156 @@
+  .filter-header {
+    font-weight: bolder !important;
+    margin-left: 18px !important;
+    margin-top: 40px !important;
+  }
+
+  .category-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .category-item {
+    cursor: pointer;
+  }
+
+  .category-title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .category-content {
+    margin-left: 20px;
+    margin-top: 5px;
+    color: gray;
+  }
+
+  .search-field {
+    margin-bottom: 10px;
+  }
+
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-range {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .go-button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+  }
+
+  .css-eqpfi5-MuiAccordionSummary-content.Mui-expanded {
+    margin: 0 !important;
+  }
+
+  .css-15v22id-MuiAccordionDetails-root {
+    padding: 8px 16px 0px !important;
+  }
+
+  .css-1086bdv-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none !important;
+  }
+
+  .Mui-checked {
+    color: #FFEB00 !important;
+    border: 1px solid black;
+  }
+
+  .filter-chip {
+    display: flex;
+    align-Items: center;
+    padding: 5px 8px;
+    background-Color: #fff;
+    margin-Right: 10px;
+    border-Radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-Transform: capitalize;
+    border: 1px solid #000;
+    border-Bottom: 3px solid #000;
+    border-Right: 3px solid #000;
+    cursor: pointer;
+  }
+
+  .starChip .css-1v5qx6p-MuiChip-root .MuiChip-icon {
+    color: #ffffff !important;
+  }
+
+  /* ------------------ */
+  .overview-container {
+    width: 80%;
+    margin: 40px auto;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .overview-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .spec-table {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .spec-table .MuiTableCell-root {
+    background-color: #f5f5f5;
+    font-weight: 500;
+  }
+
+  .carousel-container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .brand-card {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-card {
+    height: 100%;
+  }
+
+  .sponsored-text {
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .slick-prev:before {
+    display: "none";
+    opacity: 0;
+  }
+
+  .slick-next:before {
+    display: "none";
+    opacity: 0;
+  }
+
+  .slick-next:hover:before,
+  .slick-next:focus:before {
+    opacity: 0;
+  }
+
+  .slick-prev:hover:before,
+  .slick-prev:focus:before,
+  .slick-next:hover:before,
+  .slick-next:focus:before {
+    opacity: 0;
+  }
